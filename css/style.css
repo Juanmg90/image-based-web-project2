@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    margin: 50px;
+    margin: 100px 500px;
 }
 header{
     border: solid red 2px;
@@ -11,14 +11,17 @@ header{
 }
 main{
     border: solid blue 2xp;
+    padding: 20px 30px;
+    line-height: 50px;
 }
 footer{
     border: solid green 2px;
+    text-align: center;
 }
 .container {
     display: grid;
     grid-template-columns: auto;
-    margin: 0px 700px;
+    padding: 0px 250px;
     line-height: 10px;
 }
 img{
@@ -29,4 +32,25 @@ img{
 }
 .center{
     text-align: center;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border: 2px solid red;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.login{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(54, 124, 245);
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    height: 50px;
+    border-radius: 4px;
+}
+.login:hover{
+    opacity: 1;
 }
