@@ -1,19 +1,26 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 body{
     margin: 100px 500px;
+    background-color: rgb(206, 214, 240);
 }
 header{
     font:xx-large "Amaranth", sans-serif;
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
 }
 main{
     padding: 20px 125px 0px 125px;
+    background-color: white;
    
 }
 footer{
     text-align: center;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
 }
 .container {
     display: grid;
